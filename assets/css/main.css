@@ -104,7 +104,7 @@ input, select, textarea {
 		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #222127 15%, #10003f 85%);
 		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #222127 15%, #10003f 85%);
 		background-image: url("images/overlay.png"), linear-gradient(45deg, #222127 15%,  #10003f 85%);
-		background-image: url("images/stars.webp");
+		/* background-image: url("images/stars.webp"); */
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
