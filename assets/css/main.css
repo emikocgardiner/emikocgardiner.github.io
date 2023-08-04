@@ -2415,54 +2415,12 @@ input, select, textarea {
 				width: 100%;
 			}
 
-	/* .image-half {
-		border-radius: 8px;
-		border: 0;
-		display: flex;
-	}
-		.image-half.left{
-			flex: 1;
-			margin: 0 1.5em 1em 0;
-			top: 0.25em;
-		}
-		
-		.image-half.right {
-			flex: 1;
-			margin: 0 0 1em 1.5em;
-			top: 0.25em;
-		}
 
-		.image-half.left img, .image-half.right img {
-			width: 50%;
-		} */
-
-		/* .image-half.left, .image-half.right {
-			width: 100%;
-		}
-
-			.image.left-half img, .image.right-half img {
-				width: 100%;
-			} */
-
-		/* .image-half.left {
-			float: left;
-			margin: 0 1.5em 1em 0;
-			top: 0.25em;
-			max-width: 50%;
-		}
-		
-		.image-half.right {
-			float: right;
-			margin: 0 0 1em 1.5em;
-			top: 0.25em;
-			max-width: 50%;
-		} */
-
-	.image-half-container {
+	.image-flex-container {
 		display: flex;
 	}
 			
-		.image-half {
+		.image-flex {
 			flex: 1;
 			margin: 0;
 			padding: 0;
