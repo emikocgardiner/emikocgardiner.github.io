@@ -3831,21 +3831,29 @@ input, select, textarea {
 			display: flex;
 			align-items: center;
 		}
-
+		
 		.left-content {
-			flex: 5;
+			flex: 75%; /* Adjust the percentage as needed */
 			padding-right: 2em; /* Add some space between left and right content */
 		}
-
+		
 		.right-image {
-			flex: 2;
+			flex: 25%; /* Adjust the percentage as needed */
 		}
-
+		
 		.left-image {
-			flex: 2;
+			flex: 25%; /* Adjust the percentage as needed */
 		}
-
+		
 		.right-content {
-			flex: 3;
+			flex: 75%; /* Adjust the percentage as needed */
 			padding-left: 2em; /* Add some space between left and right content */
 		}
+		
+		/* Ensure images are responsive */
+		.right-image img,
+		.left-image img {
+			width: 100%;
+			max-width: 100%;
+			height: auto;
+		}	
