@@ -1854,6 +1854,13 @@ input, select, textarea {
 		white-space: nowrap;
 	}
 
+		
+	.button.small {
+		font-size: 0.8em; /* Adjust the font size as needed for the smaller button */
+		padding: 0.5em 1em; /* Adjust the padding to reduce the button size */
+		line-height: 1.75em; /* Adjust the line-height to vertically center the text */
+	}
+
 		input[type="submit"].icon,
 		input[type="reset"].icon,
 		input[type="button"].icon,
@@ -1986,6 +1993,7 @@ input, select, textarea {
 			.button.primary.icon:before {
 				color: #ffffff !important;
 			}
+		
 
 /* Form */
 
@@ -2214,6 +2222,7 @@ input, select, textarea {
 	.formerize-placeholder {
 		color: rgba(255, 255, 255, 0.5) !important;
 	}
+	
 
 /* Icon */
 
@@ -3812,4 +3821,31 @@ input, select, textarea {
 				max-width: 100%;
 			}
 
+		}
+
+
+
+
+	/* Split text and image */
+		.split {
+			display: flex;
+			align-items: center;
+		}
+
+		.left-content {
+			flex: 5;
+			padding-right: 2em; /* Add some space between left and right content */
+		}
+
+		.right-image {
+			flex: 2;
+		}
+
+		.left-image {
+			flex: 2;
+		}
+
+		.right-content {
+			flex: 3;
+			padding-left: 2em; /* Add some space between left and right content */
 		}
