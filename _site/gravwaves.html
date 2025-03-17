@@ -1,0 +1,140 @@
+<!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>GravWaves - Emiko C. Gardiner</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1>Gravitational Waves</h1>
+						<p>from supermassive black hole binaries emitting in the nanoHertz regime</p>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Content -->
+						<section id="content" class="main">
+							<span class="image main"><img src="images/nicolle_rager_fuller_smbhb.jpeg" alt="" /></span>
+							<h2>
+								Detecting Gravitational Waves with Pulsar Timing Arrays
+							</h2>
+							<p> 
+								I am an associate member of the <a href="https://nanograv.org/">North American Nanohertz Observatory for Gravitational Waves (NANOGrav)</a>. 
+								NANOGrav is one of several pulsar timing arrays (PTAs) across the globe that use correlations in the time delays of precisely timed pulsar signals to detect the squeezing and stretching of spacetime due to gravitational waves (GWs). 
+								In the 15-year data set, NANOGrav found strong evidence for the stochastic gravitational wave background (GWB) (<a href="https://iopscience.iop.org/article/10.3847/2041-8213/acdac6" >NG15 GWB paper </a>).
+							</p>
+							<span class="image right"><img src="images/holodeck_logo.png" alt="" width="20%" height="auto"/> </span>
+							
+							<h2>
+								Simulating GWs with <span style="font-family: monospace;">holodeck</span>
+							</h2>
+							<p>
+								<span style="font-family: monospace;">holodeck</span> is a python package that synthesizes semi-analytic populations of SMBHBs, evolves them in time and separation to the PTA-regime of frequencies, and simulates the GWs they produce, 
+								developed by Luke Z. Kelley, with contributions from myself and other members of the NANOGrav Astrophysics Working Group. 
+								Using <span style="font-family: monospace;">holodeck</span>, we demonstrated that the GWB measured in the 15-year NG data can be reproduced by a population of SMBHBs 
+								(<a href="https://iopscience.iop.org/article/10.3847/2041-8213/ace18b" >NG15 SMBHB paper</a>).
+							</p>
+							<h2>
+								Continuous Waves from Single Sources
+							</h2>
+							<p>
+								I developed a <span style="font-family: monospace;">holodeck</span> feature to extract N loudest single sources from the background, at each frequency. 
+								Below is a visualization of the 10 loudest single sources at each frequency of a single holodeck realization (by Peter Orndoff using <span style="font-family: monospace;"><a href="https://github.com/Hazboun6/gw_sky#gw_sky">gw-sky</a></span>) 
+								and an example characteristic strain spectra showing the loudest 10 frequencies as scatter points, the single loudest with black edges, and the background as a line, in different colors for five random realizations. 
+								The black line represents the median GWB across 500 realizations, and in dashed grey is the fiducial -2/3 power law that has long been the assumed shape for a SMBHB GWB.
+								In reality, there is a drop off from a -2/3 slope at high frequencies due to discretization: when we Poisson sample from the analytic prediction, converting from partial binaries to 0 or ~few at high frequencies, where SMBHBs dwindle.
+								<!-- We also see a turnover at low frequencies that depends sensitively on hardening mechanisms, and the rate of hardening at these frequencies, before pure GW-driven hardening dominates. -->
+								By modeling individual sources, we can make predictions for continuous wave (CW) detections and GWB anisotropy.
+							</p>
+							<div class="image-flex-container">
+								<div class="image-flex"><img src="images/hc_midvars.png" alt="" width="100%"/></div>
+								<div class="image-flex"><img src="images/peter_orndoff_gwsky.gif" alt="" width="100%"/></div>
+							</div>
+
+							<span class="image right"><img src="images/model_ClC0_09b.png" alt=""/> </span> </br>
+							<h2>
+								Anisotropy
+							</h2>
+							<!-- <span class="image right"><img src="images/healmap_09B.gif" alt="" /> </span> -->
+							<p> NG members placed upper limits on the level of anisotropy in the 15-year GWB data, which we compare to predictions I made using holodeck generated populations, placed randomly on a healPIX map
+								(<a href="https://arxiv.org/abs/2306.16221" >NG15 anisotropy paper</a>). 
+							</br> </br> </br> </br> </br> </br> </br> 
+							</p>
+						</section>
+						<section class="main special">
+							<span class="actions special"> 
+								<a href="index.html" class="button">Return to Home Page </a> 
+							</span>
+						</section>
+						
+					
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<h2>Contact</h2>
+							<dl class="alt">
+								<dt>Email</dt>
+								<dd><a href="mailto:ecg@berkeley.ed">ecg@berkeley.edu</a></dd>
+								<dt>Address</dt>
+								<dd>501 Campbell Hall #3411 &bull; 
+									Berkeley, CA 94720-3411 </dd>
+								<!-- <dt>Phone</dt>
+								<dd>(000) 000-0000 x 0000</dd> -->
+							</dl>
+							<ul class="icons">
+								<!-- <li><a href="mailto:ecg@berkeley.edu" class="icon brands fa-twitter alt"><span class="label">Email</span></a></li> -->
+								<!-- <li><a href="#" class="icon brands fa-instagram alt"><span class="label">Instagram</span></a></li> -->
+								<li><a href="https://github.com/emikocgardiner" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
+								<li><a href="https://twitter.com/EmikoGardiner" class="icon brands fa-twitter alt"><span class="label">Twitter</span></a></li>
+								<li><a href="https://www.linkedin.com/in/emikogardiner/" class="icon brands fa-linkedin alt"><span class="label">LinkedIn</span></a></li>
+								<li><a href="https://orcid.org/0000-0002-8857-613X" class="icon brands fa-orcid alt"><span class="label">ORCiD</span></a></li>
+							</ul>
+							<!-- <ul class="actions">
+								<li><a href="index.html" class="button">Home</a></li>
+							</ul> -->
+						</section>
+						<section>
+							<h2>Credits</h2>
+							<dl class="cred">
+								<dt>Header image:</dt>
+								<dd>Nicole R. Fuller</dd>
+								<dt><span style="font-family: monospace;">holodeck</span> logo:</dt>
+								<dd>Luke Z. Kelley</dd>
+								<dt><span style="font-family: monospace;">gw-sky</span> map:</dt>
+								<dd>Peter Orndoff</dd>
+								<dt>Plots:</dt>
+								<dd>Emiko C. Gardiner</dd>
+						</section>
+						<p class="copyright">&copy; Emiko C. Gardiner. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
